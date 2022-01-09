@@ -1,11 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Ganton "hotkey" ou atalho
-
-# In[ ]:
-
-
 #ctypes é a biblioteca para compatibilidade que possibilita a utilização de funções DLL dentro do windows
 #openpuxl nos possibilita a integrar uma planílha de excell (nosso banco de dados) para obter os ativos
 #pyautogui e keyboard nos dão acesso e controle ao teclado
@@ -50,8 +42,7 @@ while True: #loop principal do programa
         pg.typewrite(sh['A'+str(contador)].value,0.005)
         pg.typewrite('\n')
         
-
-
+        
 #Gabriel Barbosa
 #ver1.1
 #09/01/2021
